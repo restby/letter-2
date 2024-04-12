@@ -2,8 +2,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" /> -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Концертный зал им. Глинки</title>
   <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -50,14 +50,39 @@
     @media screen and (max-width: 399.98px) {}
 
     /* Custom Dark Mode Colors */
-    /* :root {
+    :root {
       color-scheme: light dark;
       supported-color-schemes: light dark;
     }
 
     @media (prefers-color-scheme: dark) {
+      .bg-dark {
+        background-color: #000000 !important;
+      }
 
-    } */
+      .bg-dark h1,
+      .bg-dark h2,
+      .bg-dark h3,
+      .bg-dark p,
+      .bg-dark b,
+      .bg-dark span,
+      .bg-dark a {
+        color: #ffffff !important;
+      }
+
+      .bg-light {
+        background-color: #ffffff !important;
+      }
+
+      .bg-light h1,
+      .bg-light h2,
+      .bg-light h3,
+      .bg-light p,
+      .bg-light b,
+      .bg-light span {
+        color: #000000 !important;
+      }
+    }
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
